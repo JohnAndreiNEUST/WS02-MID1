@@ -1,0 +1,126 @@
+html, body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+header{
+    background-color: #02001C;
+    text-align: center;
+}
+h1{
+    font-size: 90px;
+    color: #22C1FF;
+    font-family: 'Times New Roman', Times, serif;
+}
+header img{
+    border-radius: 174px;
+    width: 300px;
+    border: 12px solid #22C1FF;
+    box-shadow: 4px 6px 17px 10px rgb(34,193,255);
+}
+
+.img_bg{
+    background-image: url('BackgroundPicture.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg_gradient{
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgb(5,11,38) 100%);
+    padding: 40px;
+}
+.outer-content{
+    background-color: rgb(5,11,38);
+    padding: 20px;
+}
+.inner-content{
+    background-color: rgba(0,0,0,0.8);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border: 3px solid #22C1FF;
+    border-radius: 3%;
+    box-shadow: 0 0 0.7em 0 #22C1FF;
+}
+.card{
+    background-color: rgba(0, 0, 0, 1);
+    max-width: 900px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border: 3px solid #22C1FF;
+    border-radius: 20px;
+}
+h2{
+    color: #E0DFE0;
+    text-shadow: 1.5px 0 #22C1FF, 0 1.5px #22C1FF, 1.5px 1.5px #22C1FF,
+                 -1.5px 0 #22C1FF, 0 -1.5px #22C1FF, -1.5px -1.5px #22C1FF;
+    text-align: center;
+}
+img.big-image{
+    max-width: 100%;
+    border-radius: 20px;
+}
+p, ol, ul, table{
+    color: #E0DFE0;
+    font-family: 'D-DIN', sans-serif;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.whole-friends-card{
+    background-color: rgba(34, 193, 255, 0.5);
+    max-width: 900px;
+    padding: 10px 20px;
+    border: 3px solid #22C1FF;
+    border-radius: 20px;
+    text-align: center;
+}
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+.friend-card{
+    background-color: rgba(34, 193, 255, 1);
+    max-width: 30%;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+.friend-image{
+    max-width: 70%;
+}
+
+footer{
+    padding: 40px 20px;
+    background-color: #02001C;
+}
+.footer-text{
+    color: #22C1FF;
+}
+footer ul{
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background:#02001C;
+}
+::-webkit-scrollbar-thumb{
+    background:#22C1FF;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#22C1FF;
+}
